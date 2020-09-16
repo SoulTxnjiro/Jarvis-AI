@@ -77,7 +77,7 @@ def email(to, content):
 
 
 if __name__ == '__main__':
-    # wishme()
+    wishme()
     while True:
         query = takeCommand().lower()
         if 'wikipedia' in query:
