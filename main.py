@@ -7,6 +7,7 @@ import os
 import time
 import smtplib
 
+# Initiating text to speech for Jarvis to interact with us
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
 engine.setProperty('voices', voices[0].id)
